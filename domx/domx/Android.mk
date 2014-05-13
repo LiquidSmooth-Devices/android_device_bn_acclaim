@@ -33,5 +33,6 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_MODULE:= libdomx
 LOCAL_MODULE_TAGS:= optional
+LOCAL_CFLAGS      += -fno-strict-aliasing
 
 include $(BUILD_HEAPTRACKED_SHARED_LIBRARY)
