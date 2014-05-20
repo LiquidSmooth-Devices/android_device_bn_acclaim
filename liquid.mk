@@ -17,8 +17,9 @@
 $(call inherit-product, device/bn/acclaim/full_acclaim.mk)
 $(call inherit-product-if-exists, vendor/liquid/config/common_tablet.mk)
 
-TARGET_SCREEN_HEIGHT := 960
-TARGET_SCREEN_WIDTH := 540
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1024
+TARGET_SCREEN_WIDTH := 600
 
 DEVICE_PACKAGE_OVERLAYS += vendor/liquid/overlay
 
