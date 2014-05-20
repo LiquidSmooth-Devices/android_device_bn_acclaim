@@ -1,6 +1,6 @@
 [
     {
-        "remote": "github",
+        "remote": "gh",
         "repository": "Ntemis/android_kernel_bn_acclaim",
         "target_path": "kernel/bn/acclaim",
         "revision": "cm-11.0"
