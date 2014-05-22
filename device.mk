@@ -132,6 +132,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	wifi.interface=wlan0 \
 	wifi.supplicant_scan_interval=45
 
+# OTA ID
+PRODUCT_PROPERTY_OVERRIDES += \
+    otaupdater.otaid=liquidacclaim
+
 $(call inherit-product, vendor/bn/acclaim/acclaim-vendor.mk)
 $(call inherit-product, frameworks/native/build/tablet-dalvik-heap.mk)
 $(call inherit-product, hardware/ti/wlan/mac80211/wl127x-wlan-products.mk)
