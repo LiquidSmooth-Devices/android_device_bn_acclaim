@@ -98,7 +98,8 @@ TARGET_RELEASETOOL_IMG_FROM_TARGET_SCRIPT := $(DEVICE_FOLDER)/releasetools/img_f
 
 TARGET_KERNEL_CONFIG := cyanogenmod_acclaim_defconfig
 TARGET_KERNEL_SOURCE := kernel/bn/acclaim
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := sm-arm-eabi-4.7
+TARGET_GCC_VERSION_ARM := 4.7-linaro
+TARGET_GCC_VERSION_AND := 4.8-sm
 
 # wlan build
 WLAN_MODULES:
