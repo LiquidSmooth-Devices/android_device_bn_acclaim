@@ -75,6 +75,9 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_
 # Graphics
 BOARD_EGL_CFG := $(DEVICE_FOLDER)/prebuilt/etc/egl.cfg
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard1
+
 # OMAP Custom DOMX
 TI_CUSTOM_DOMX_PATH := $(DEVICE_FOLDER)/domx
 DOMX_PATH := $(DEVICE_FOLDER)/domx
