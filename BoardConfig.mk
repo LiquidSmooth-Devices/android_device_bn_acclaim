@@ -102,7 +102,6 @@ TARGET_RELEASETOOL_IMG_FROM_TARGET_SCRIPT := $(DEVICE_FOLDER)/releasetools/img_f
 TARGET_KERNEL_CONFIG := cyanogenmod_acclaim_defconfig
 TARGET_KERNEL_SOURCE := kernel/bn/acclaim
 TARGET_GCC_VERSION_ARM := 4.7-linaro
-TARGET_GCC_VERSION_AND := 4.8-sm
 
 # Building wifi modules
 TARGET_MODULES_SOURCE := "hardware/ti/wlan/mac80211/compat_wl12xx"
